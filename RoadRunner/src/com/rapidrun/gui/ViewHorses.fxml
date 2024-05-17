@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.VBox?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rapidrun.gui.ViewHorsesController">
+    <TableView fx:id="horseTable"  >
+
+        <columns>
+            <TableColumn text="ID" fx:id="colId" />
+            <TableColumn text="Name" fx:id="colName" />
+            <TableColumn text="Jockey" fx:id="colJockey" />
+            <TableColumn text="Age" fx:id="colAge" />
+            <TableColumn text="Breed" fx:id="colBreed" />
+            <TableColumn text="Record" fx:id="colRecord" />
+            <TableColumn text="Group" fx:id="colGroup" />
+            <TableColumn text="Image" fx:id="colImage" />
+        </columns>
+    </TableView>
+</VBox>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.chart.BarChart?>
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rapidrun.gui.RaceResultsViewController">
+    <BarChart fx:id="raceResultsChart">
+        <xAxis>
+            <CategoryAxis label="Horse Name"/>
+        </xAxis>
+        <yAxis>
+            <NumberAxis label="Race Time (s)"/>
+        </yAxis>
+    </BarChart>
+</VBox>

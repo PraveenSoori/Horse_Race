@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.control.cell.PropertyValueFactory?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.image.ImageView?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.rapidrun.gui.SelectedHorsesViewController" spacing="10">
+    <TableView fx:id="tableView">
+        <columns>
+            <TableColumn text="Group" fx:id="colGroup">
+                <cellValueFactory><PropertyValueFactory property="group" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Horse ID" fx:id="colId">
+                <cellValueFactory><PropertyValueFactory property="id" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Name" fx:id="colName">
+                <cellValueFactory><PropertyValueFactory property="name" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Jockey Name" fx:id="colJockeyName">
+                <cellValueFactory><PropertyValueFactory property="jockeyName" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Age" fx:id="colAge">
+                <cellValueFactory><PropertyValueFactory property="age" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Breed" fx:id="colBreed">
+                <cellValueFactory><PropertyValueFactory property="breed" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Race Record" fx:id="colRaceRecord">
+                <cellValueFactory><PropertyValueFactory property="raceRecord" /></cellValueFactory>
+            </TableColumn>
+            <TableColumn text="Image" fx:id="colImage">
+                <cellValueFactory><PropertyValueFactory property="imagePath" /></cellValueFactory>
+            </TableColumn>
+        </columns>
+    </TableView>
+</VBox>
